@@ -1,27 +1,44 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      ¿ Quien soy ?
-    </ion-title> 
-  </ion-toolbar>
-</ion-header>
+<ion-content class="bg">
 
-<ion-content [fullscreen]="true">
-  <ion-card>
-     <img alt="Silhouette of mountains" src="assets/mifoto.jpeg" />
+  <div class="header">
+    <h1>⭐ ¿Quién soy?</h1>
+  </div>
 
-  <ion-card-header>
-    <ion-card-title>Ana Dey Rios Garcia </ion-card-title>
-    <ion-card-subtitle>Desarrollador De Apps</ion-card-subtitle>
-  </ion-card-header>
+  <!-- Imagen -->
+  <div class="image-container">
+    <img src="assets/mifoto.jpeg" alt="perfil">
+  </div>
 
-  <ion-card-content>
-  Estudiante de Ing.Informatica del TecNM Campus De La Region Sierra.
-  8vo. Semestre.
-  Desarrollador de apps en:
-  -App Inventor 
-  -Ionic Framework
-  -Android Studio.
-  </ion-card-content>
-</ion-card>
+  <!-- Card principal -->
+  <div class="card">
+    <h2 class="name">Ana Dey Rios Garcia 💖</h2>
+    <p class="role">Desarrollador de Apps</p>
+
+    <p class="desc">
+      Estudiante de Ing. Informática del TecNM Campus de la Región Sierra.
+    </p>
+
+    <!-- Datos -->
+    <div class="info">
+      <div class="box">
+        🎓 <br>
+        <span>8vo. Semestre</span>
+      </div>
+
+      <div class="box">
+        💻 <br>
+        <span>Dev Apps</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sobre mí -->
+  <div class="card about">
+    <h3>✨ Sobre mí</h3>
+    <p>
+      Apasionada por la tecnología y el desarrollo de aplicaciones móviles.
+      Me encanta crear soluciones que hagan la vida más fácil 💕
+    </p>
+  </div>
+
 </ion-content>
